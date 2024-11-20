@@ -117,12 +117,12 @@
     },
     {
       "obfs": {
-        "password": "flhqwenifhnO8Q90",
+        "password": "iuybh3i2y3894y52",
         "type": "salamander"
       },
-      "password": "9mfsMoRa0m",
-      "server": "45.84.88.71",
-      "server_port": 43626,
+      "password": "ojxKMJRQ9S",
+      "server": "193.187.174.133",
+      "server_port": 47477,
       "tag": "Hys2",
       "tls": {
         "enabled": true,
@@ -132,18 +132,18 @@
     },
     {
       "obfs": {
-        "password": "qljhiouiun983911",
+        "password": "asdhnio3uy234",
         "type": "salamander"
       },
-      "password": "9mfsMoRa0m",
-      "server": "45.84.88.71",
-      "server_port": 55707,
+      "password": "ojxKMJRQ9S",
+      "server": "193.187.174.133",
+      "server_port": 28627,
       "tag": "Hys2+ECH",
       "tls": {
         "ech": {
           "config": [
             "-----BEGIN ECH CONFIGS-----",
-            "ADn+DQA1AAAgACBi0GlZXTBIpX8/x1Ekb/6i7CKxkLIozlpR0J6nsOxiRwAIAAEA",
+            "ADn+DQA1AAAgACC9Q5XJ+uI123XO2gOVRKDnXj9x5PAXFJJsCVbghuYiPAAIAAEA",
             "AQABAAMAAicnAAA=",
             "-----END ECH CONFIGS-----"
           ]
@@ -155,18 +155,18 @@
     },
     {
       "obfs": {
-        "password": "wejhrniouyqin3891",
+        "password": "iuybwvi8y92834",
         "type": "salamander"
       },
-      "password": "9mfsMoRa0m",
-      "server": "45.84.88.71",
-      "server_port": 14048,
+      "password": "ojxKMJRQ9S",
+      "server": "193.187.174.133",
+      "server_port": 57164,
       "tag": "Hys2+ECH+PQS",
       "tls": {
         "ech": {
           "config": [
             "-----BEGIN ECH CONFIGS-----",
-            "ADn+DQA1AAAgACDaVa1ZAYQzN3lRPmw9Rm49fbXfanS9/dPu56bYE1KNOAAIAAEA",
+            "ADn+DQA1AAAgACAt0oWyR+qKJuUFtY3YTMXr2CpIOly35ToftpKQxaKKQwAIAAEA",
             "AQABAAMAAicnAAA=",
             "-----END ECH CONFIGS-----"
           ]

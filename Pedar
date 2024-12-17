@@ -84,7 +84,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "Hys2+SNI"
+        "HYS2",
+        "HYS2+ECH",
+        "HYS2+ECH+PQS"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,7 +94,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "Hys2+SNI"
+        "HYS2",
+        "HYS2+ECH",
+        "HYS2+ECH+PQS"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,17 +117,62 @@
     },
     {
       "obfs": {
-        "password": "aerbfa4qyry53b632",
+        "password": "uayhernfv34852345",
         "type": "salamander"
       },
-      "password": "LGxCE7HUg2",
-      "server": "46.8.230.80",
-      "server_port": 443,
-      "tag": "Hys2+SNI",
+      "password": "WVE1A7Be4G",
+      "server": "193.242.145.45",
+      "server_port": 26612,
+      "tag": "HYS2",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "www.google.com"
+        "insecure": true
+      },
+      "type": "hysteria2"
+    },
+    {
+      "obfs": {
+        "password": "uyernt8ot8o569345",
+        "type": "salamander"
+      },
+      "password": "WVE1A7Be4G",
+      "server": "193.242.145.45",
+      "server_port": 53438,
+      "tag": "HYS2+ECH",
+      "tls": {
+        "ech": {
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "ADn+DQA1AAAgACCW7GnWLsoqqhywyegobMTgkncWaPwgSSSxiR3TBNfIUgAIAAEA",
+            "AQABAAMAAicnAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        },
+        "enabled": true,
+        "insecure": true
+      },
+      "type": "hysteria2"
+    },
+    {
+      "obfs": {
+        "password": "oeruitno38p4u985",
+        "type": "salamander"
+      },
+      "password": "WVE1A7Be4G",
+      "server": "193.242.145.45",
+      "server_port": 56670,
+      "tag": "HYS2+ECH+PQS",
+      "tls": {
+        "ech": {
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "ADn+DQA1AAAgACB/E1cUQR0akGEETsdBnkK7NqyNkSi9ILg9L7TlYuoJDwAIAAEA",
+            "AQABAAMAAicnAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        },
+        "enabled": true,
+        "insecure": true
       },
       "type": "hysteria2"
     }

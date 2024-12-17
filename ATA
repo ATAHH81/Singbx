@@ -86,7 +86,8 @@
         "direct",
         "HYS2",
         "HYS2+ECH",
-        "HYS2+ECH+PQS"
+        "HYS2+ECH+PQS",
+        "SNI"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,7 +97,8 @@
       "outbounds": [
         "HYS2",
         "HYS2+ECH",
-        "HYS2+ECH+PQS"
+        "HYS2+ECH+PQS",
+        "SNI"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -173,6 +175,22 @@
         },
         "enabled": true,
         "insecure": true
+      },
+      "type": "hysteria2"
+    },
+    {
+      "obfs": {
+        "password": "weorub897y3495",
+        "type": "salamander"
+      },
+      "password": "RDKRPXRwR8",
+      "server": "193.242.145.45",
+      "server_port": 443,
+      "tag": "SNI",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.google.com"
       },
       "type": "hysteria2"
     }

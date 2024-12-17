@@ -84,9 +84,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "Hys2",
-        "Hys2+ECH",
-        "Hys2+ECH+PQS"
+        "Hys2+SNI"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,9 +92,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "Hys2",
-        "Hys2+ECH",
-        "Hys2+ECH+PQS"
+        "Hys2+SNI"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,62 +113,17 @@
     },
     {
       "obfs": {
-        "password": "iuybh3i2y3894y52",
+        "password": "aerbfa4qyry53b632",
         "type": "salamander"
       },
-      "password": "37WiSAEuaL",
-      "server": "193.187.174.133",
-      "server_port": 47477,
-      "tag": "Hys2",
+      "password": "vTHYdA79g5",
+      "server": "46.8.230.80",
+      "server_port": 443,
+      "tag": "Hys2+SNI",
       "tls": {
         "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
-    {
-      "obfs": {
-        "password": "asdhnio3uy234",
-        "type": "salamander"
-      },
-      "password": "37WiSAEuaL",
-      "server": "193.187.174.133",
-      "server_port": 28627,
-      "tag": "Hys2+ECH",
-      "tls": {
-        "ech": {
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "ADn+DQA1AAAgACC9Q5XJ+uI123XO2gOVRKDnXj9x5PAXFJJsCVbghuYiPAAIAAEA",
-            "AQABAAMAAicnAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        },
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
-    {
-      "obfs": {
-        "password": "iuybwvi8y92834",
-        "type": "salamander"
-      },
-      "password": "37WiSAEuaL",
-      "server": "193.187.174.133",
-      "server_port": 57164,
-      "tag": "Hys2+ECH+PQS",
-      "tls": {
-        "ech": {
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "ADn+DQA1AAAgACAt0oWyR+qKJuUFtY3YTMXr2CpIOly35ToftpKQxaKKQwAIAAEA",
-            "AQABAAMAAicnAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        },
-        "enabled": true,
-        "insecure": true
+        "insecure": true,
+        "server_name": "www.google.com"
       },
       "type": "hysteria2"
     }
